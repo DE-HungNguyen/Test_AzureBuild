@@ -14,7 +14,7 @@ steps:
   inputs:
     #workingDirectory: # Optional
     forceRepoUpdate: false
-    #projectDirectory: # Optional
+    projectDirectory: 'Azure_Build/'
 
 - task: Xcode@5
   inputs:

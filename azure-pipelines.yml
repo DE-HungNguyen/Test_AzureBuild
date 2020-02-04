@@ -19,7 +19,7 @@ steps:
 - task: CocoaPods@0
   inputs:
     forceRepoUpdate: true
-    projectDirectory: '$(system.defaultWorkingDirectory)'
+    projectDirectory: '**/'
     displayName: 'pod install using the CocoaPods task with a forced repo update and a custom project directory
 
 - task: Xcode@5

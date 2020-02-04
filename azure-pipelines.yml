@@ -24,6 +24,6 @@ steps:
     scheme: 'Azure_Build'
     sdk: 'iphoneos'
     configuration: 'Release'
-    xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
-    xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
+    xcWorkspacePath: 'Azure_Build/Azure_Build.xcworkspace'
+    xcodeVersion: '10' # Options: 8, 9, 10, default, specifyPath
 
